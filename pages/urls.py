@@ -6,7 +6,7 @@ urlpatterns = [
     path('About/',AboutPagesView.as_view(),name= 'about'),
     path('',HomePagesView.as_view(),name='home'),
     path('About/News/',NewsPagesView.as_view(),name= 'news' ),
-    path('Outher/',OutherPagesView.as_view(),name = 'author'),
+    path('About/News/Outher/',OutherPagesView.as_view(),name = 'author'),
 
 
 ]
